@@ -1,0 +1,33 @@
+<config>	
+	<modules>
+		<Customweb_PriceRule>
+			<version>0.1.0</version>
+		</Customweb_PriceRule>
+	</modules>
+
+	<global>
+		<models>
+			 <catalogrule>
+                <rewrite>
+                    <observer>Customweb_PriceRule_Model_Observer</observer>
+                </rewrite>
+            </catalogrule>
+            <catalogrule_resource>
+                <rewrite>
+                    <rule_product_price>Customweb_PriceRule_Model_Resource_Rule_Product_Price</rule_product_price>
+                </rewrite>
+            </catalogrule_resource>
+            <weee_resource>
+                <rewrite>
+                    <tax>Customweb_PriceRule_Model_Resource_Rule_Tax</tax>
+                </rewrite>
+            </weee_resource>
+            <catalog>
+                <rewrite>
+                    <product_type_price>Customweb_PriceRule_Model_Product_Type_Price</product_type_price>
+                </rewrite>
+            </catalog>
+		</models>
+	</global>
+
+</config> 

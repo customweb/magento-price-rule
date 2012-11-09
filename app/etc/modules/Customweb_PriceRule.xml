@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Customweb_PriceRule>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Customweb_PriceRule>
+    </modules>
+</config> 
