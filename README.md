@@ -7,5 +7,7 @@ After you installed this extension you can specify under "Promotions->Catalog Pr
 
 Tested with Magento 1.6.
 
+Working with 1.8.0.0 too.
+
 
 The module was developped by http://www.customweb.com.
